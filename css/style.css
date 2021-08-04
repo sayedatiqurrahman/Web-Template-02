@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgreen;
+}
+
+.template{
+    width: 1100px;
+    margin: 0 auto;
+}
+.row1{
+    height: 60px;
+    width: 100%;
+    background-color:#fff;
+}
+.mid{
+    width: 88%;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo h4{
+    padding-top: 13px;
+    font-size: 25px;
+}
+.menu{
+    width: 70%;
+    overflow: hidden;
+    margin-left: 350px;
+       
+}
+.menu nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 57px;
+     height: 60px;
+    padding: 0px 5px ;
+    transition: 1s;
+}
+.menu nav ul li:hover{
+    background-color: #00B0C6;
+    
+}
+.menu nav ul li:hover a{
+color: #fff; 
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.row2{
+    width: 100%;
+    height: 500px;
+    background-image:linear-gradient(to right,#0093Ad,#50C7FA );
+    margin: 0 auto;
+    position: relative;
+}
+.row2 .top_banner{
+    position: relative;
+}
+.row2 .top_banner .left_side{
+    width: 50%;
+    float:left;
+    color: #fff;
+    padding-top:150px; 
+}
+.row2 .top_banner .left_side h1{
+    margin-bottom: 5px;
+    font-size:50px;
+} 
+.row2 .top_banner .right_side{
+    width: 50%;
+    overflow: hidden;
+}
+.row2 .top_banner .right_side img{
+    height: 500px;
+}
+.row2  .bottom-bar{
+    height: 150px;
+    width: 100%;
+    background-color: #00B1C4;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+    
+}
+.row2  .bottom-bar .leftbar{
+    width:60%;
+    float: left;
+    padding-top:50px;
+}
+.row2  .bottom-bar .rightbar{
+    width:40%;
+    overflow: hidden;
+    padding-top:50px;
+}
+.row2  .bottom-bar .rightbar button{
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-left: 100px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s
+}
+
+.row3{ 
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+}
+
+.row3 .allnews .top-content,.row4 .top_part{
+    text-align: center;
+    padding-top: 30px;
+}
+.row3 .allnews .top-content,.row4 .top_part h1{
+    
+    letter-spacing: 3px;
+    
+}
+.row3 .allnews .top-content p{
+    font-size: 20px;
+    color: gray;
+    padding-top: 5px;
+}
+
+.row3 .allnews .bottom-content .newscard{
+    margin-top: 30px;
+    height: 485px;
+    width:310px;
+    float: left;
+    margin-left:10px;
+    overflow: hidden;
+}
+.row3 .allnews .bottom-content .newscard img{
+    width:100% ;
+    height: 266px;
+    transition: 1s;
+ 
+}
+.row3 .allnews .bottom-content .newscard img:hover{
+    width:105% ;
+    height: 350px;
+}
+.row3 .allnews .bottom-content .newscard .bottom_bar{
+    height: 220px;
+    width: 100%;
+    margin-top: -5px;
+    background-color: #00B1C5; 
+    position:relative;
+}
+.row3 .allnews .bottom-content .newscard .bottom_bar h4 ,span, p{
+    font-size: 18px;
+    color:#fff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    text-align: justify-all;
+}
+.row3 .allnews .bottom-content .newscard .bottom_bar button{
+    padding: 7px 17px;
+    background-color: transparent;
+    border: 3px solid white;
+    color:#fff;
+    position: absolute;
+    left: 5px;
+    bottom:5px;
+    border-radius:7px; 
+    transition: 1s;
+}
+
+
+.row4{
+    width: 100%;
+    height: 500px;
+    background-color:#F7F7F7;
+    
+}
+.row4 .footer p{
+    color: #000;
+}
+.row4 .footer .top_part  p{
+    font-size: 20px;
+    color: gray;
+    padding-top: 5px;
+}
+.row4 .footer .bottom_part{
+    margin-top: 20px;
+}
+.row4 .footer .bottom_part .all_services h5 {
+    padding-left: 10px;
+}
+.row4 .footer .bottom_part .all_services {
+    padding-top: 50px;
+    font-size: 20px;
+}
+.row4 .footer .bottom_part .all_services img{
+    height: 50px;
+    width: 50px;
+    transition: 1s;
+}
+.row4 .footer .bottom_part .all_services img:hover{
+    transform: rotate(45deg);
+}
+.row4 .footer .bottom_part .all_services .left_content {
+    width: 50%;
+    float: left;
+}
+.row4 .footer .bottom_part .all_services .right_content{
+    width: 50%;
+    overflow: hidden;
+    margin-left:25px;
+}
+.row4 .footer .bottom_part .all_services .left_content .top_content {
+    text-align: justify-all;
+    margin-bottom: 50px;
+}
+
+.row4 .footer .bottom_part .all_services .left_content .top_content .left_side{
+    float: left;
+    width: 15%;
+}
+
+.row4 .footer .bottom_part .all_services .left_content .top_content .right_side{
+    overflow: hidden;
+    width: 70%;
+}
+
+.row4 .footer .bottom_part .all_services .left_content .bottom_content .left_side{
+    width: 15%;
+    float: left;
+}
+.row4 .footer .bottom_part .all_services .left_content .bottom_content .right_side{
+    overflow: hidden;
+    width: 70%;
+}
+.row4 .footer .bottom_part .all_services .right_content .top_content{
+    margin-bottom: 50px;
+}
+.row4 .footer .bottom_part .all_services .right_content .top_content .left_side{
+    width: 15%;
+    float: left;
+}
+.row4 .footer .bottom_part .all_services .right_content .top_content .right_side{
+    overflow: hidden;
+    width: 80%;
+}
+
+.row4 .footer .bottom_part .all_services .right_content .bottom_content .left_side{
+    width: 15%;
+    float: left;
+    
+}
+.row4 .footer .bottom_part .all_services .right_content .bottom_content .right_side{
+    overflow: hidden;
+    width: 81%;
+}
+button:hover{
+    box-shadow: 3px 4px rgba(0,0,0,0.3);
+}
+
